@@ -1,0 +1,55 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  text-align: center;  
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  background: rgb(202, 148, 111);
+}
+
+.main{
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.navigation-menu {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  display: inline-flex;
+  padding: 60px;
+  margin: -100px;
+  position: 50%;
+  margin-left: -155px;
+}
+
+.item{
+  display: block;
+  margin: 70px;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.logo{
+  width: 100px;
+  
+}
+
+.navigation-menu a:hover {
+  color: ;
+}
+
+.navigation-menu a:active{
+  color: ;
+}
+
+.navigation-menu a:focus{
+  color: ;
+}
+
+/* baner */
