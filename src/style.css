@@ -2,54 +2,53 @@ html, body{
   margin: 0;
   padding: 0;
   text-align: center;  
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 16px;
-  color: black;
+  font-family: "Myriad Pro", "Arial", regular,  sans-serif;
+  font-size: 18px;
+  color: #fff;
   text-transform: uppercase;
-  background: rgb(202, 148, 111);
 }
 
-.main{
-  width: 1366px;
+ .main{
+  width: 1920px;
   margin: 0 auto;
 }
 
-.navigation-menu {
-  font-weight: bold;
-  font-size: 18px;
+/* header */
+
+.header{
+  margin: 0;
+  height: 600px;
+  background: linear-gradient(#f48c82, #fce28a);
+}
+
+.navigation-menu{
+  font-size: 14px;
   line-height: 26px;
-  color: rgb(0, 0, 0);
-  list-style: none;
-  display: inline-flex;
-  padding: 60px;
-  margin: -100px;
-  position: 50%;
-  margin-left: -155px;
+  height: 80px;
 }
 
 .item{
-  display: block;
-  margin: 70px;
-  text-decoration: none;
-  color: #000000;
-  margin-top: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  color: #fff;
 }
 
-.logo{
-  width: 100px;
+.item_link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.item_link:hover{
+  text-decoration: underline;
+  color: #fce38a
+}
+
+/* about */
+
+.about{
+  height: 1020px;
   
 }
-
-.navigation-menu a:hover {
-  color: ;
-}
-
-.navigation-menu a:active{
-  color: ;
-}
-
-.navigation-menu a:focus{
-  color: ;
-}
-
-/* baner */
