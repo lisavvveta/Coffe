@@ -3,7 +3,7 @@ html, body{
   padding: 0;
   text-align: center;  
   font-family: "Myriad Pro", "Arial", regular,  sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -11,6 +11,17 @@ html, body{
  .main{
   width: 1920px;
   margin: 0 auto;
+}
+
+h1,h2,h3{
+  color: #333;  
+  text-decoration: none;
+}
+
+p{
+  margin-top: 45px;
+  color: #999;
+  padding-bottom: 70px;
 }
 
 /* header */
@@ -21,7 +32,7 @@ html, body{
   background: linear-gradient(#f48c82, #fce28a);
 }
 
-.navigation-menu{
+.sidebar{
   font-size: 14px;
   line-height: 26px;
   height: 80px;
@@ -34,6 +45,7 @@ html, body{
   height: 100%;
   list-style: none;
   color: #fff;
+  font-size: 18px;
 }
 
 .item_link{
@@ -50,5 +62,37 @@ html, body{
 
 .about{
   height: 1020px;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: -550px;
+}
+
+.icon{
+  margin-top: 45px;
+}
+
+.about_icon{
+  margin: 30px;
   
+}
+
+.about_icon:hover{
+  box-shadow: 10px 10px 0px #95e1d3;
+  transform: translateX(-10px);
+}
+
+.wrap_about{
+  margin: 70px 0;
+  height: 270px;
+  background-color: #95e1d3;
+  color: #fff;
+}
+
+.story{
+  display:inline-flex;
+  justify-content: space-between;
+  padding: 65px;
+  margin-top: 0 auto;
+  font-size: 30px;
+  color: #fff;
 }
