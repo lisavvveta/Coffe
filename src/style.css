@@ -14,14 +14,7 @@ html, body{
 }
 
 h1,h2,h3{
-  color: #333;  
   text-decoration: none;
-}
-
-p{
-  margin-top: 45px;
-  color: #999;
-  padding-bottom: 70px;
 }
 
 /* header */
@@ -61,19 +54,17 @@ p{
 /* about */
 
 .about{
-  height: 1020px;
   text-decoration: none;
   padding-top: 20px;
   padding-left: -550px;
 }
 
-.icon{
-  margin-top: 45px;
-}
-
 .about_icon{
   margin: 30px;
-  
+}
+
+.text-color{
+  color: #333;  
 }
 
 .about_icon:hover{
@@ -92,7 +83,8 @@ p{
   display:inline-flex;
   justify-content: space-between;
   padding: 65px;
-  margin-top: 0 auto;
-  font-size: 30px;
-  color: #fff;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #fff;  
+  text-decoration: none;
 }
