@@ -1,0 +1,125 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  text-align: center;  
+  font-family: "Myriad Pro", "Arial", regular,  sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ .main{
+  width: 1920px;
+  margin: 0 auto;
+}
+
+h1,h2,h3{
+  text-decoration: none;
+}
+
+.text-color{
+  color: #333;
+}
+
+p{
+  line-height: 30px;
+  max-width: 950px;
+  margin-left: 500px;
+}
+
+/* header */
+
+.header{
+  margin: 0;
+  height: 600px;
+  background: linear-gradient(#f48c82, #fce28a);
+}
+
+.sidebar{
+  font-size: 14px;
+  line-height: 26px;
+  height: 80px;
+}
+
+.item{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.item_link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.item_link:hover{
+  text-decoration: underline;
+  color: #fce38a
+}
+
+/* about */
+
+.about{
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: -550px;
+}
+
+.about_icon{
+  margin: 30px;
+}
+
+.about_icon:hover{
+  box-shadow: 10px 10px 0px #95e1d3;
+  transform: translateX(-10px);
+}
+
+.wrap_about{
+  margin: 70px 0;
+  height: 270px;
+  background-color: #95e1d3;
+  color: #fff;
+}
+
+.story{
+  display:inline-flex;
+  justify-content: space-between;
+  padding: 65px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #fff;  
+  text-decoration: none;
+}
+
+/* services */
+
+.services{
+  height: 650px;
+}
+
+/* devices */
+
+.devices{
+  background-image: url(/public/bcg_work.png);
+  height: 680px;
+  padding: 65px;
+}
+
+/* we_do */
+
+.we_do{
+  height: 650px;  
+  padding: 65px;
+}
+
+.we_do_content{
+  margin: 70px;
+}
+
+.we_do_text{
+  background-color: #f8f8f8;
+}
