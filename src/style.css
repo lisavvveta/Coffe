@@ -17,6 +17,16 @@ h1,h2,h3{
   text-decoration: none;
 }
 
+.text-color{
+  color: #333;
+}
+
+p{
+  line-height: 30px;
+  max-width: 950px;
+  margin-left: 500px;
+}
+
 /* header */
 
 .header{
@@ -63,10 +73,6 @@ h1,h2,h3{
   margin: 30px;
 }
 
-.text-color{
-  color: #333;  
-}
-
 .about_icon:hover{
   box-shadow: 10px 10px 0px #95e1d3;
   transform: translateX(-10px);
@@ -87,4 +93,33 @@ h1,h2,h3{
   font-size: 25px;
   color: #fff;  
   text-decoration: none;
+}
+
+/* services */
+
+.services{
+  height: 650px;
+}
+
+/* devices */
+
+.devices{
+  background-image: url(/public/bcg_work.png);
+  height: 680px;
+  padding: 65px;
+}
+
+/* we_do */
+
+.we_do{
+  height: 650px;  
+  padding: 65px;
+}
+
+.we_do_content{
+  margin: 70px;
+}
+
+.we_do_text{
+  background-color: #f8f8f8;
 }
