@@ -24,7 +24,8 @@ h1,h2,h3{
 p{
   line-height: 30px;
   max-width: 950px;
-  margin-left: 500px;
+  text-align: center;  
+  margin-left: 450px;
 }
 
 /* header */
@@ -98,7 +99,20 @@ p{
 /* services */
 
 .services{
-  height: 650px;
+  height: 400px;
+}
+
+.services_item li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  align-items: center;
+  min-height: 50px;
+}
+
+.services_item p{
+  margin-left: 0px;
 }
 
 /* devices */
@@ -122,4 +136,5 @@ p{
 
 .we_do_text{
   background-color: #f8f8f8;
+  color: #999999;
 }
