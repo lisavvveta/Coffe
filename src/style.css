@@ -24,7 +24,8 @@ h1,h2,h3{
 p{
   line-height: 30px;
   max-width: 950px;
-  margin-left: 500px;
+  text-align: center;  
+  margin-left: 450px;
 }
 
 /* header */
@@ -76,6 +77,7 @@ p{
 .about_icon:hover{
   box-shadow: 10px 10px 0px #95e1d3;
   transform: translateX(-10px);
+  background: url(/public/foto-gradient\ 14.png);
 }
 
 .wrap_about{
@@ -98,7 +100,24 @@ p{
 /* services */
 
 .services{
-  height: 650px;
+  height: 400px;
+}
+
+.services_item li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  align-items: center;
+  min-height: 50px;
+}
+
+.services_item p{
+  margin-left: 0px;
+}
+
+.services_icon{
+  padding-right: 10px;
 }
 
 /* devices */
@@ -112,7 +131,7 @@ p{
 /* we_do */
 
 .we_do{
-  height: 650px;  
+  height: 900px;  
   padding: 65px;
 }
 
@@ -122,4 +141,33 @@ p{
 
 .we_do_text{
   background-color: #f8f8f8;
+  color: #999999;
+  height: 250px;  
+}
+
+.we_do_icon{
+  margin-top: 40px;
+}
+
+/* Who_we_are */
+
+.Who_we_are{
+  height: 950px;
+  padding: 65px;
+}
+
+.we_do_logotyps{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+/* work */
+
+.What_we_do{
+  height: 1000px;
+  padding: 65px;
+}
+
+.work-image{
+  display: flex;
 }
