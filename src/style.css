@@ -195,7 +195,43 @@ p{
 /* Happy Clients */
 
 .Happy_clients{
-  height: 835px;
+  height: 765px;
   background-image: url(/public/bcg_happy.png);
+  padding-top: 50px;
+}
+
+.wrap_clients{
+  display: flex;
+  color: #999999;
+  margin-top: 30px;
+}
+
+.clients_item{
+  margin-right: 0px;
+}
+
+.clients_text p{
+  margin-left: 50px;
+  max-width: 900px;
+}
+
+/* blog */
+
+.blog{
+  height: 550px;
   padding: 65px;
+}
+
+.blog_image{
+  margin: auto 50px;
+}
+
+/* footer */
+
+.footer{
+  background-color: #f8f8f8;
+  height: 560px;
+  color: #cccccc;
+  padding: 65px 180px;
+  text-align: left;
 }
