@@ -234,4 +234,25 @@ p{
   color: #cccccc;
   padding: 65px 180px;
   text-align: left;
+  display:inline-flex;
+  justify-content: space-between;
+  position: 100%;
+}
+
+.wrap_footer{
+  position: 33%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.footer_text{
+  margin-left: -150px;
+}
+
+.footer_search{
+  margin-left: -50px;
+}
+
+.wrap_footer_insta{
+  max-width: 300px;
 }
